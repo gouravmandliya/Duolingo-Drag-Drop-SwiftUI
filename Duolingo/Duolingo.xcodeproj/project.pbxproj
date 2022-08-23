@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3604169628B34AD300FFE96F /* DuolingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3604169528B34AD300FFE96F /* DuolingoApp.swift */; };
+		3604169828B34AD300FFE96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3604169728B34AD300FFE96F /* ContentView.swift */; };
+		3604169A28B34AD500FFE96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3604169928B34AD500FFE96F /* Assets.xcassets */; };
+		3604169D28B34AD500FFE96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3604169C28B34AD500FFE96F /* Preview Assets.xcassets */; };
+		360416A728B34AD500FFE96F /* DuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416A628B34AD500FFE96F /* DuolingoTests.swift */; };
+		360416B128B34AD500FFE96F /* DuolingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416B028B34AD500FFE96F /* DuolingoUITests.swift */; };
+		360416B328B34AD500FFE96F /* DuolingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416B228B34AD500FFE96F /* DuolingoUITestsLaunchTests.swift */; };
+		360416C228B34FBC00FFE96F /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416C128B34FBC00FFE96F /* Word.swift */; };
+		360416C428B350F700FFE96F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416C328B350F700FFE96F /* Home.swift */; };
+		360416C628B3993200FFE96F /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416C528B3993200FFE96F /* DropView.swift */; };
+		360416C828B3993E00FFE96F /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416C728B3993E00FFE96F /* DragView.swift */; };
+		360416CA28B3995400FFE96F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416C928B3995400FFE96F /* ProgressView.swift */; };
+		360416CD28B3A5CE00FFE96F /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416CC28B3A5CE00FFE96F /* QuestionViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360416A328B34AD500FFE96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3604168A28B34AD300FFE96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3604169128B34AD300FFE96F;
+			remoteInfo = Duolingo;
+		};
+		360416AD28B34AD500FFE96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3604168A28B34AD300FFE96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3604169128B34AD300FFE96F;
+			remoteInfo = Duolingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3604169228B34AD300FFE96F /* Duolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3604169528B34AD300FFE96F /* DuolingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoApp.swift; sourceTree = "<group>"; };
+		3604169728B34AD300FFE96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3604169928B34AD500FFE96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3604169C28B34AD500FFE96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		360416A228B34AD500FFE96F /* DuolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		360416A628B34AD500FFE96F /* DuolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoTests.swift; sourceTree = "<group>"; };
+		360416AC28B34AD500FFE96F /* DuolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		360416B028B34AD500FFE96F /* DuolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoUITests.swift; sourceTree = "<group>"; };
+		360416B228B34AD500FFE96F /* DuolingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuolingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		360416C128B34FBC00FFE96F /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		360416C328B350F700FFE96F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		360416C528B3993200FFE96F /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		360416C728B3993E00FFE96F /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		360416C928B3995400FFE96F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		360416CC28B3A5CE00FFE96F /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3604168F28B34AD300FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3604169F28B34AD500FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416A928B34AD500FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3604168928B34AD300FFE96F = {
+			isa = PBXGroup;
+			children = (
+				3604169428B34AD300FFE96F /* Duolingo */,
+				360416A528B34AD500FFE96F /* DuolingoTests */,
+				360416AF28B34AD500FFE96F /* DuolingoUITests */,
+				3604169328B34AD300FFE96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3604169328B34AD300FFE96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3604169228B34AD300FFE96F /* Duolingo.app */,
+				360416A228B34AD500FFE96F /* DuolingoTests.xctest */,
+				360416AC28B34AD500FFE96F /* DuolingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3604169428B34AD300FFE96F /* Duolingo */ = {
+			isa = PBXGroup;
+			children = (
+				360416CB28B3A5BC00FFE96F /* ViewModel */,
+				360416C028B34EAF00FFE96F /* Model */,
+				360416BF28B34EA800FFE96F /* View */,
+				3604169528B34AD300FFE96F /* DuolingoApp.swift */,
+				3604169728B34AD300FFE96F /* ContentView.swift */,
+				3604169928B34AD500FFE96F /* Assets.xcassets */,
+				3604169B28B34AD500FFE96F /* Preview Content */,
+			);
+			path = Duolingo;
+			sourceTree = "<group>";
+		};
+		3604169B28B34AD500FFE96F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3604169C28B34AD500FFE96F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		360416A528B34AD500FFE96F /* DuolingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				360416A628B34AD500FFE96F /* DuolingoTests.swift */,
+			);
+			path = DuolingoTests;
+			sourceTree = "<group>";
+		};
+		360416AF28B34AD500FFE96F /* DuolingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				360416B028B34AD500FFE96F /* DuolingoUITests.swift */,
+				360416B228B34AD500FFE96F /* DuolingoUITestsLaunchTests.swift */,
+			);
+			path = DuolingoUITests;
+			sourceTree = "<group>";
+		};
+		360416BF28B34EA800FFE96F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				360416C328B350F700FFE96F /* Home.swift */,
+				360416C528B3993200FFE96F /* DropView.swift */,
+				360416C728B3993E00FFE96F /* DragView.swift */,
+				360416C928B3995400FFE96F /* ProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		360416C028B34EAF00FFE96F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				360416C128B34FBC00FFE96F /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		360416CB28B3A5BC00FFE96F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				360416CC28B3A5CE00FFE96F /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3604169128B34AD300FFE96F /* Duolingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360416B628B34AD500FFE96F /* Build configuration list for PBXNativeTarget "Duolingo" */;
+			buildPhases = (
+				3604168E28B34AD300FFE96F /* Sources */,
+				3604168F28B34AD300FFE96F /* Frameworks */,
+				3604169028B34AD300FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duolingo;
+			productName = Duolingo;
+			productReference = 3604169228B34AD300FFE96F /* Duolingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360416A128B34AD500FFE96F /* DuolingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360416B928B34AD500FFE96F /* Build configuration list for PBXNativeTarget "DuolingoTests" */;
+			buildPhases = (
+				3604169E28B34AD500FFE96F /* Sources */,
+				3604169F28B34AD500FFE96F /* Frameworks */,
+				360416A028B34AD500FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360416A428B34AD500FFE96F /* PBXTargetDependency */,
+			);
+			name = DuolingoTests;
+			productName = DuolingoTests;
+			productReference = 360416A228B34AD500FFE96F /* DuolingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		360416AB28B34AD500FFE96F /* DuolingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360416BC28B34AD500FFE96F /* Build configuration list for PBXNativeTarget "DuolingoUITests" */;
+			buildPhases = (
+				360416A828B34AD500FFE96F /* Sources */,
+				360416A928B34AD500FFE96F /* Frameworks */,
+				360416AA28B34AD500FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360416AE28B34AD500FFE96F /* PBXTargetDependency */,
+			);
+			name = DuolingoUITests;
+			productName = DuolingoUITests;
+			productReference = 360416AC28B34AD500FFE96F /* DuolingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3604168A28B34AD300FFE96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3604169128B34AD300FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					360416A128B34AD500FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3604169128B34AD300FFE96F;
+					};
+					360416AB28B34AD500FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3604169128B34AD300FFE96F;
+					};
+				};
+			};
+			buildConfigurationList = 3604168D28B34AD300FFE96F /* Build configuration list for PBXProject "Duolingo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3604168928B34AD300FFE96F;
+			productRefGroup = 3604169328B34AD300FFE96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3604169128B34AD300FFE96F /* Duolingo */,
+				360416A128B34AD500FFE96F /* DuolingoTests */,
+				360416AB28B34AD500FFE96F /* DuolingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3604169028B34AD300FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3604169D28B34AD500FFE96F /* Preview Assets.xcassets in Resources */,
+				3604169A28B34AD500FFE96F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416A028B34AD500FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416AA28B34AD500FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3604168E28B34AD300FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416C228B34FBC00FFE96F /* Word.swift in Sources */,
+				3604169828B34AD300FFE96F /* ContentView.swift in Sources */,
+				360416CD28B3A5CE00FFE96F /* QuestionViewModel.swift in Sources */,
+				360416C828B3993E00FFE96F /* DragView.swift in Sources */,
+				360416C428B350F700FFE96F /* Home.swift in Sources */,
+				3604169628B34AD300FFE96F /* DuolingoApp.swift in Sources */,
+				360416C628B3993200FFE96F /* DropView.swift in Sources */,
+				360416CA28B3995400FFE96F /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3604169E28B34AD500FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416A728B34AD500FFE96F /* DuolingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416A828B34AD500FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416B328B34AD500FFE96F /* DuolingoUITestsLaunchTests.swift in Sources */,
+				360416B128B34AD500FFE96F /* DuolingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360416A428B34AD500FFE96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3604169128B34AD300FFE96F /* Duolingo */;
+			targetProxy = 360416A328B34AD500FFE96F /* PBXContainerItemProxy */;
+		};
+		360416AE28B34AD500FFE96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3604169128B34AD300FFE96F /* Duolingo */;
+			targetProxy = 360416AD28B34AD500FFE96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		360416B428B34AD500FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		360416B528B34AD500FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360416B728B34AD500FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duolingo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.Duolingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		360416B828B34AD500FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duolingo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.Duolingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		360416BA28B34AD500FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.DuolingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duolingo.app/Duolingo";
+			};
+			name = Debug;
+		};
+		360416BB28B34AD500FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.DuolingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duolingo.app/Duolingo";
+			};
+			name = Release;
+		};
+		360416BD28B34AD500FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.DuolingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duolingo;
+			};
+			name = Debug;
+		};
+		360416BE28B34AD500FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourav.DuolingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duolingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3604168D28B34AD300FFE96F /* Build configuration list for PBXProject "Duolingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416B428B34AD500FFE96F /* Debug */,
+				360416B528B34AD500FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360416B628B34AD500FFE96F /* Build configuration list for PBXNativeTarget "Duolingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416B728B34AD500FFE96F /* Debug */,
+				360416B828B34AD500FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360416B928B34AD500FFE96F /* Build configuration list for PBXNativeTarget "DuolingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416BA28B34AD500FFE96F /* Debug */,
+				360416BB28B34AD500FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360416BC28B34AD500FFE96F /* Build configuration list for PBXNativeTarget "DuolingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416BD28B34AD500FFE96F /* Debug */,
+				360416BE28B34AD500FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3604168A28B34AD300FFE96F /* Project object */;
+}
